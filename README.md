@@ -2,6 +2,14 @@
 
 API RESTful desenvolvida em ASP.NET Core para monitoramento de bem-estar mental de trabalhadores em ambientes híbridos.
 
+```
+INTEGRANTES
+- Alexis Ronaldo Quirijota Rondo – RM: 560384 – Turma: 2TDSPS
+- Lucas Aurélio de Brito Chicote – RM: 559366 – Turma: 2TDSPA
+- Lucas Gomes de Araújo Lopes – RM: 559607 – Turma: 2TDSPA
+
+```
+
 ## 🎯 Visão Geral
 
 O MentalCheck permite que trabalhadores realizem check-ins diários sobre seu estado emocional, registrando métricas como:
@@ -278,16 +286,6 @@ A API retorna erros no formato RFC 7807 (Problem Details).
     "email": ["Email inválido"]
   }
 }
-```
-
-### Códigos HTTP:
-- `200 OK` - Sucesso
-- `201 Created` - Recurso criado
-- `204 No Content` - Deleção bem-sucedida
-- `400 Bad Request` - Erro de validação
-- `404 Not Found` - Recurso não encontrado
-- `409 Conflict` - Conflito (ex: email duplicado)
-- `500 Internal Server Error` - Erro no servidor
 
 ---
 
